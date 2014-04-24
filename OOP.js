@@ -2,6 +2,7 @@ Why OOP?
 ===============================================
 *Inheritance
 *Encapsulation
+*Reusability
 
 Functional Instantiation
 ===============================================
