@@ -11,8 +11,10 @@ var dictionary = {
   functional_w_shared_instantiation: "",
   prototypical_instantiation:"",
   pseudoclassical_instantiation:""
-}
+};
+
 ===============================================
+
 Using functional instantiation,
 create a constructor called Pokemon. This
 class has some properties, name, strength,
