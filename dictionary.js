@@ -1,7 +1,7 @@
 var dictionary = {
   instance: "",
   constructor: "",
-  class: "",
+  class: "model of the object",
   subclass: "",
   inheritance: "",
   encapsulation: "",
@@ -9,4 +9,4 @@ var dictionary = {
   functional_w_shared_instantiation: "",
   prototypical_instantiation:"",
   pseudoclassical_instantiation:""
-}
+};
