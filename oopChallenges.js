@@ -54,4 +54,43 @@ using prototypical instantiation.
 ===============================================
 
 Re-write the previous constructor and methods 
-using pseudoclassical.
+using pseudoclassical instantiation.
+
+===============================================
+
+Now it was fun making your pokemon instances of
+Pokemon, but it is actually better practice to 
+make your pokemon instances as a subclass of 
+Pokemon so thatthey can have custom methods. 
+For example, you want all Pikachus to be able 
+to make lightning, but you wouldnt want Charmanders
+to have that method. 
+
+Re-create your game with subclasses that extend
+Pokemon. All Pokemon should have name, points,
+strength, attack, shield and run methods. Pikachu
+(or whichever Pokemon you chose) will have some 
+methods that are unique. Maybe it has a method 
+called 'makeLightning'. It should also over-ride
+the generic attack method to make it unique too.
+Maybe some pokemon subclasses say their name 
+when attacking while others are quiet.
+
+Some methods should override the parent class,
+while others should inherit from the parent. 
+
+Customize your pokemon subclasses so that they can
+interact with one another.  
+
+Use a Decorator called foundFood that gives your
+instance more health points.
+
+Make another decorator to make your game more
+interesting. 
+
+How would you make your Pokemon evolve into the
+next level of Pokemon (Charmander -> Charzard)?
+Implement this using classes.
+
+
+
