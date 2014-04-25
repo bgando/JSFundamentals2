@@ -174,6 +174,40 @@ _.where(listOfPeople, {hobby: "Coding", favColor: "purple"});
 
 
 
+//Exercises from: Spencer Handley https://github.com/spencer48
+//Let's use underscore to return just the keys of an object. create an
+// object called animals with the key being the animal's name and the values 
+// being the color of the animal. Then use _.keys, which takes an object and 
+// returns an array of it's keys.
+
+// Now call _.values on that same object. Cool huh? There's more where that came from.
+// Call _.invert on the same object and chain _.keys to it. What did you get?
+
+
+//another cool Object method in underscore is _.pick. it's sort of similar to filter but
+// allows you to select specifically what keys you want returned in an array. 
+// Example:
+_.pick({name: 'moe', age: 50, userid: 'moe1'}, 'name', 'age');
+=> {name: 'moe', age: 50}
+
+// The opposite of that is _.omit try it on your animals object.
+
+//  What if you want an array of array's that contain your key value pairs. 
+// Welp, underscore delivers. test out _.pairs on your animals object.
+// ... thanks underscore, you're pretty cool
+
+// Along with all this goodness, underscore also has a wide variety of was to 
+// check if something has a certain quality. for example _.isEmpty(object), 
+// _.isArray(object), _.isObject(value), _.isString(object), _.isUndefined(value), etc... 
+// create a function that take a param called thingy and checks if thingy is an object. 
+//If it is, return it's key value pairs with _.pairs  
+
+// here's somethign random, try using _.random, which take a min and a max value and 
+// outputs a random number between them. make another function called beer which creates a random 
+// number between 1 and 100, if the number is greater than 80 log "I don't dance", 
+// if it's greater than 50 but less than 79 log "hey I kinda like this song", 
+// if it's less that 49 and greater than 20 log "Uh huh, I can get down with this",
+// if it's less than 19, log "Lookout dancefloor, here I come!"... HINT: you could use a switch
 
 
 
