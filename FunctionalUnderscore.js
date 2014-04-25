@@ -1,4 +1,6 @@
 //Functional Programming in JS
+//Author: William Johnson https://github.com/wcjohnson11
+//Editor: Monthy Python https://github.com/monthypython
 =======================================
 //We're going to use some native methods and
 //the underscore library to do some functional 
@@ -21,8 +23,8 @@
 //FUNCTIONAL PROGRAMMING
 
 //Different programming styles' primary goals are to break
-// problems into parts. These parts are then aggregated to
-// compose larger parts. Think of OOP as breaking the problem
+//problems into parts. These parts are then aggregated to
+//compose larger parts. Think of OOP as breaking the problem
 //into sets of nouns, or objects. We can then think of 
 //functional programming as breaking the same problem into
 //verbs, or functions. Functional programming works
@@ -51,12 +53,16 @@ forEach()
 //and we've passed it an array and a function.
 //So this is Functional Programming, not so scary right? 
 
+//Let's list out all even numbers from 1 to 1,000, inclusive.
 
 //This is an easy transition to the underscore method
 // _.each, the syntax is a little different but it
 //accomplishes the same goal
 
 _.each([1,2,3], alert);
+
+//Use _.each to rewrite the above exercise: list out all even 
+//numbers from 1 to 1,000, inclusive. 
 
 =============================================================
 //Cool, remember filter? It looks through each value in a list,
@@ -65,13 +71,17 @@ _.each([1,2,3], alert);
 _.filter(list, predicate);
 
 //Declare an array variable with some numbers, even and odd, inside
-//now declare a predicate function even, that will only evaluate true
+//now declare a predicate function "even", that will only evaluate true
 //if the value passed in is even, then use _.filter with your
-//creations
+//creations.
 
 //Sweet right? Now, say we have an array of names and we only want to
 //return the names that start with the letters A-M, try that with 
 //_.filter()
+
+//Now use _.each to create an array from 1, 1000 (inclusive) and
+//then use _.filter to filter out all prime numbers from the
+//array.
 
 =============================================================
 //Alright! Now, how about map()? It produces a new array of values by
@@ -80,7 +90,7 @@ _.filter(list, predicate);
 _.map(list, transformingFunction)
 
 //Let's use the Math.sqrt() method to get the square root of all numbers
-//in an array that we pass in
+//in an array that we pass in.
 
 
 //Say for, formatting's sake we need to transform an array of strings
@@ -89,7 +99,7 @@ _.map(list, transformingFunction)
 =============================================================
 //Ok, onto reduce! It, well, reduces a list of values into a
 //single value. It takes the list, a transforming Function,
-//and a initialized value
+//and a initialized value.
 
 _.reduce(list, transformingFunction, initial);
 
@@ -98,6 +108,15 @@ _.reduce(list, transformingFunction, initial);
 //Now use reduce to take an array of strings and join them to 
 //create a sentence
 
+//Exercise: Write a function countZeroes, which takes an array 
+//of numbers as its argument and returns the amount of zeroes 
+//that occur in it. Use reduce.
+
+//Then, write the higher-order function count, which takes an 
+//array and a test function as arguments, and returns the amount 
+//of elements in the array for which the test function returned true. 
+//Re-implement countZeroes using this function.
+
 =============================================================
 //Now on to range. This function creates flexibly-numbered lists
 //If you omit start it will be 0, if you omit step, it will be 1
@@ -105,7 +124,7 @@ _.reduce(list, transformingFunction, initial);
 _.range([start], stop, [step])
 
 //Try it for yourself and see how easy it is to build a range between
-//1 and 10. What about with negative numbers?
+//1 and 10. Then from 1000 to 1. What about with negative numbers?
 
 =============================================================
 //It's pretty simple but let's see how it can work with other
@@ -123,7 +142,7 @@ matrix[5][7]; => 35
 //MORE CHALLENGES!
 =============================================================
 //And how about we use our underscore functions to return the
-//longest string in an array
+//longest string in an array.
 
 //Another challenge! Let's use underscore to change each letter
 //in a string to the following letter in the alphabet!
@@ -132,7 +151,7 @@ matrix[5][7]; => 35
 //a power of two!
 
 //Use underscore to determine whether the mode === mean in an
-//array of numbers
+//array of numbers.
 
 //Now let's look at using underscore with objects
 ==============================================================
