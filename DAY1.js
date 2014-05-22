@@ -36,14 +36,6 @@ PLEASE EAT THE SNACKS :)
 
 
 
-LECTURE 1
-06:00 - 06:20
-
-//Warmup (5 mins)
-
-//create an array named recipe and add the steps, in order to make your favorite
-//food. Use different methods to do so.
-=================================================
 
 
 //data structures
@@ -68,16 +60,16 @@ var simpleDataStructures = ['arrays', 'objects'];
 //how to add values and indices to arrays
 =================================================
 var addValues = ['bracket-notation', 'bracket-notation with variable'];
-var otherWaysToAdd =['dot-notation', 'native methods', 'lengthproperty'];
+var otherWaysToAdd =[]; //fill out later
 
+//create an array named recipe and add the steps, in order to make your favorite
+//food. Use different methods to do so.
+=================================================
 
-EXERCISES 1
-06:20 - 06:40
-
-//how to access values and indices in an array
+//how to access values and indices to an array
 =================================================
 var accessValues = ['bracket-notation', 'bracket-notation with variable'];
-var otherWaysToAccess =['dot-notation', 'native methods', 'length property'];
+var otherWaysToAccess =[]; //fill out later
 
 //access the first step of your recipe using bracket notation. 
 =================================================
@@ -93,10 +85,6 @@ var otherWaysToAccess =['dot-notation', 'native methods', 'length property'];
 =================================================
 var addProperties = ['bracket-notation', 'dot-notation', 'bracket-notation with variable'];
 var otherWaysToAddProperties = [];
-
-
-LECTURE 2
-06:00 - 06:20
 
 What is property assignment?
 
